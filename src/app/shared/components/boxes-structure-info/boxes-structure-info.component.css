@@ -1,0 +1,384 @@
+/* //css for heading 3 */
+
+#heading-3 {
+
+    text-align: center !important;
+    margin-top: 30px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 200;
+   
+
+}
+
+
+#heading-3>span{
+
+    color: #087c80 !important;
+    font-weight: 500;
+
+}
+
+
+/* css for section 8 */
+
+.section-8-container{
+
+    height: 80vh;
+   
+}
+
+    /* //code for row 1 */
+.section-8-row-1
+{
+
+    height: 50%;
+   
+    justify-content: space-between;
+}
+
+
+.section-8-row-1-item{
+
+       
+        height: 100px;
+        border-radius: 20px;
+        background-color: white;
+        color: #297d7f;
+
+      
+}
+
+.section-8-row-1-item.item1{
+
+     width: 26%;
+    height: 200px;
+    background-color: #297d7f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+   
+
+    
+}
+
+.section-8-row-1-item.item2{
+   
+    margin-top: 40px;
+    height: 110%;
+    /* //fot the text */
+
+    /* //logic to align child horizontally and virtically center  using css grid start*/
+    display: grid;
+    place-items: center;
+    /* //logic to align child horizontally and virtically center  using css grid end*/
+  
+    
+   
+}
+
+.section-8-row-1-item.item3{
+
+    margin-top: 40px;
+    height: 80%;
+
+   /* //logic to align child horizontally and virtically center  using css grid start*/
+   display: grid;
+   place-items: center;
+   /* //logic to align child horizontally and virtically center  using css grid end*/
+
+}
+
+.section-8-row-1-item>h4{
+
+    font-weight: 300;
+    line-height: 40px;
+   
+}
+.section-8-row-1-item>h4>span{
+
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+
+/* //code for row 2 */
+.section-8-row-2
+{
+    height: 50%;
+    justify-content: space-between;
+}
+
+.section-8-row-2-item{
+
+  
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    color: #297d7f;
+
+   
+}
+
+.section-8-row-2-item.item1{
+
+    position: relative;
+    top: -39%;
+    height: 139%;
+     /* //logic to align child horizontally and virtically center  using css grid start*/
+     display: grid;
+     place-items: center;
+     /* //logic to align child horizontally and virtically center  using css grid end*/
+
+    
+
+}
+.section-8-row-2-item.item2{
+    margin-top: 9%;
+    width: 20%;
+    height: 69%;
+     /* //logic to align child horizontally and virtically center  using css grid start*/
+     display: grid;
+     place-items: center;
+     /* //logic to align child horizontally and virtically center  using css grid end*/
+}
+.section-8-row-2-item.item3{
+
+    margin-top: 9%;
+    height: 69%;
+    width: 27%;
+     /* //logic to align child horizontally and virtically center  using css grid start*/
+     display: grid;
+     place-items: center;
+     /* //logic to align child horizontally and virtically center  using css grid end*/
+}
+.section-8-row-2-item.item4{
+    height: 100%;
+     /* //logic to align child horizontally and virtically center  using css grid start*/
+     display: grid;
+     place-items: center;
+     /* //logic to align child horizontally and virtically center  using css grid end*/
+}
+
+/* code for the text inside the div */
+.section-8-row-2-item>h4{
+
+    font-weight: 300;
+    line-height: 40px;
+   
+}
+.section-8-row-2-item>h4>span{
+
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+
+
+/* mobile only section-8 */
+
+.mobile-only-section-8-container{
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* resoponsive */
+
+@media screen and (max-width: 600px) {
+
+    
+ /*Code for section 8*/
+        
+ .section-8-container{
+    display: none;
+}
+
+
+/*code for mobile-only-section-8*/
+
+
+.mobile-only-section-8-container{
+    display: block;
+}
+
+
+            
+   
+        /* //code for row 1 */
+   
+
+
+    .mobile-only-section-8-row-1-item{
+
+        
+            height: auto;
+            
+            border-radius: 20px;
+            background-color: white;
+            color: #297d7f;
+
+        
+    }
+
+    .mobile-only-section-8-row-1-item.item1{
+
+       
+        height: 200px;
+        background-color: #297d7f;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-transform: uppercase;
+    
+
+        
+    }
+    .mobile-only-section-8-row-1-item.item1>h1{
+        text-align: center;
+    }
+
+
+    .mobile-only-section-8-row-1-item.item2{
+    
+        margin-top: 25px;
+        height: 110%;
+        /* //fot the text */
+
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+    
+        padding: 5%;
+    
+    }
+
+    .mobile-only-section-8-row-1-item.item3{
+
+        margin-top: 25px;
+       
+
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+
+        padding: 5%;
+    }
+
+    .mobile-only-section-8-row-1-item>h4{
+
+        font-weight: 300;
+        line-height: 40px;
+        text-align: center;
+    
+    }
+    .mobile-only-section-8-row-1-item>h4>span{
+
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+
+    /* //code for row 2 */
+    .mobile-only-section-8-row-2
+    {
+        
+        justify-content: space-between;
+    }
+
+    .mobile-only-section-8-row-2-item{
+
+    
+        
+        border-radius: 20px;
+        background-color: white;
+        color: #297d7f;
+
+
+    
+    }
+
+    .mobile-only-section-8-row-2-item.item1{
+
+      
+        
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+        background-color: white;
+        color: #297d7f;
+        margin-top: 25px;
+        padding: 5%;
+        
+
+    }
+    .mobile-only-section-8-row-2-item.item2{
+      
+        
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+        margin-top: 25px;
+        padding: 5%;
+    }
+    .mobile-only-section-8-row-2-item.item3{
+
+        
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+        margin-top: 25px;
+        padding: 5%;
+    }
+    .mobile-only-section-8-row-2-item.item4{
+        
+        /* //logic to align child horizontally and virtically center  using css grid start*/
+        display: grid;
+        place-items: center;
+        /* //logic to align child horizontally and virtically center  using css grid end*/
+        margin-top: 25px;
+        padding: 5%;
+    }
+
+    /* code for the text inside the div */
+    .mobile-only-section-8-row-2-item>h4{
+
+        font-weight: 300;
+        line-height: 40px;
+        text-align: center;
+    
+    }
+    .mobile-only-section-8-row-2-item>h4>span{
+
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+}
+

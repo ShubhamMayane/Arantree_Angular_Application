@@ -23,7 +23,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     text-align: center;
+    
      
 
 
@@ -135,12 +135,17 @@
                 margin-bottom: 20px;
             }   
 
+
             .section-12-container-row-1-col-1-text>p>b{
 
        
                 font-size: 25px;
             }
 
+            .section-12-container-row-1-col-1{
+
+                text-align: center;
+            }
           
             .section-12-container-row-1-col-1
             {

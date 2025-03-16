@@ -1,0 +1,103 @@
+1.How to apply .active class to the nav item which is active?
+
+solution:
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link " routerLink="/home" routerLinkActive="active" aria-current="page">Home</a>
+                      <a class="nav-link " routerLink="/aboutus" routerLinkActive="active">About us</a>
+                      <a class="nav-link " routerLink="/services" routerLinkActive="active">Services</a>
+                  
+</div>
+
+
+varil <a> tag madhil routerLink="/home" routerLinkActive="active" ya don attribute cha arth asa ki jevha 
+localhost:3000/home hi url hit houn ya url specific component render hoil techa ya <a> tag la active ha css mdhil defined class apply kela jaeel.
+
+
+2.How to render a x component which is registered in module1 inside the component 2 which is rgidtered in module 2 :
+
+
+SOLUTION:
+
+
+To render a component from one Angular module into a component of another module, you need to follow a few steps to ensure the two modules are connected and
+properly share the components. Here's how to do it:
+
+1. Export the Component from the First Module
+In the module where the component you want to render resides, make sure the component is exported. This makes it available for use in other modules.
+
+      For example, in ModuleA:
+
+      // module-a.component.ts
+      import { Component } from '@angular/core';
+
+      @Component({
+        selector: 'app-module-a',
+        templateUrl: './module-a.component.html',
+        styleUrls: ['./module-a.component.css']
+      })
+      export class ModuleAComponent {
+        // Component logic
+      }
+
+
+
+      In module-a.module.ts:
+
+
+      import { NgModule } from '@angular/core';
+      import { CommonModule } from '@angular/common';
+      import { ModuleAComponent } from './module-a.component';
+
+      @NgModule({
+        declarations: [ModuleAComponent],
+        imports: [CommonModule],
+        exports: [ModuleAComponent]  // Export the component to make it available in other modules
+      })
+      export class ModuleAModule {}
+      
+      
+      
+      2. Import the Module in the Second Module
+      Now, in the module where you want to render ModuleAComponent, you need to import ModuleAModule so that its exported components are available.
+
+
+      
+      For example, in ModuleB:
+
+      // module-b.component.ts
+      import { Component } from '@angular/core';
+
+      @Component({
+        selector: 'app-module-b',
+        templateUrl: './module-b.component.html',
+        styleUrls: ['./module-b.component.css']
+      })
+      export class ModuleBComponent {
+        // Component logic
+      }
+     
+     
+      In module-b.module.ts:
+
+      import { NgModule } from '@angular/core';
+      import { CommonModule } from '@angular/common';
+      import { ModuleBComponent } from './module-b.component';
+      import { ModuleAModule } from '../module-a/module-a.module';  // Import ModuleAModule
+
+      @NgModule({
+        declarations: [ModuleBComponent],
+        imports: [CommonModule, ModuleAModule],  // Add ModuleAModule here
+      })
+      export class ModuleBModule {}
+      
+      
+      
+      3. Use the Component from ModuleA in ModuleB's Template
+      Once you've imported ModuleAModule in ModuleB, you can use ModuleAComponent in the template of ModuleBComponent.
+
+      For example, in module-b.component.html:
+
+      <!-- Render the component from ModuleA -->
+      <app-module-a></app-module-a>

@@ -1,0 +1,74 @@
+/* Css for the html in aboutus.html */
+
+.about-us-section-2-container{
+
+
+    padding-left: 5%;
+    padding-right:5%;
+
+
+}
+.about-us-section-2-container-row{
+
+   
+
+}
+.about-us-section-2-container-col-1{
+
+      /* //logic to align child horizontally and virtically center  using css grid start*/
+      display: grid;
+      place-items: center;
+      /* //logic to align child horizontally and virtically center  using css grid end*/
+      height: 80vh;
+      padding: 5%;
+    
+
+}
+
+.about-us-section-2-container-col-1>p{
+
+    font-size: 20px;
+
+
+}
+.about-us-section-2-container-col-1>p>span{
+
+    color: #087c80;
+    font-weight: bold;
+
+}
+
+.about-us-section-2-container-col-2{
+    position: relative;
+    padding: 0px;
+    height: 80vh;
+
+}
+
+.about-us-section-2-container-col-2>img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ 
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .about-us-section-2-container-col-1{
+
+        text-align: center;
+    }
+  
+    .about-us-section-2-container-col-2>img{
+
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+     
+    
+    }
+  
+}

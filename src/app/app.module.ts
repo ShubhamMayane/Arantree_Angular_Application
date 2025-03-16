@@ -11,12 +11,14 @@ import { ServicesModule } from './services/services.module';
 import { BannerComponent } from './commonComponents/banner/banner.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+   
     
   ],
   imports: [

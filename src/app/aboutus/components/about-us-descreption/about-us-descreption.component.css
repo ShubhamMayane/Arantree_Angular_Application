@@ -1,0 +1,26 @@
+/* code for about us section 3 */
+
+.about-us-heading-1{
+
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.about-us-section-3-text{
+
+    margin-top: 100px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    /*section 3*/
+    .about-us-section-3-text{
+
+        margin-top: 50px;
+    
+    }
+}

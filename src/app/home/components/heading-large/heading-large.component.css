@@ -1,0 +1,22 @@
+/* //css for heading 2 */
+
+#heading-2 {
+
+    text-align: center !important;
+    margin-top: 30px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    
+
+}
+.visible{
+
+    visibility: visible;
+}
+
+#heading-2>span{
+
+    color: #087c80;
+    
+
+}

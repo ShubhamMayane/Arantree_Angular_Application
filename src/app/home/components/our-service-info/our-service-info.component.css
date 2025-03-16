@@ -1,0 +1,29 @@
+.heading-section-3{
+
+    color: #087e80;
+    text-transform: uppercase;
+
+}
+
+.heading-section-3>span{
+
+    font-weight: 500;
+    color: #087e80;
+
+}
+
+.description-section-3{
+
+font-size: 30px;
+font-weight: 400;
+}
+
+@media screen and (max-width: 600px) 
+{
+
+ /* code for section 3 */
+ .description-section-3 {
+    font-size: 20px;
+}
+
+}

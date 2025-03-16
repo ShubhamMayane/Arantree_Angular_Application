@@ -1,0 +1,41 @@
+
+
+
+/* css for section 9 */
+
+#heading-4{
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #297d7f;
+    font-weight: 200;
+    
+}
+
+#heading-4 span{
+    font-weight: bold;
+
+}
+@media screen and (max-width: 600px) {
+
+
+       /* code for section 10 */
+
+
+
+       .section-10-container-item{
+        position: relative;
+        padding: 0px;
+        margin-bottom: 3px;
+        
+       
+      
+    }
+
+    .section-10-container-item>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+    }
+}
