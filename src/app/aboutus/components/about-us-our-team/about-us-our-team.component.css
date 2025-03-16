@@ -1,0 +1,23 @@
+/* code for about-us-section 7 */
+
+
+.about-us-section-7-container{
+    text-align: center;
+    background-color: #e2eced;
+    
+}
+
+.about-us-section-7-sub-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 5%;
+}
+.about-us-section-7-sub-container>h1{
+
+    font-weight: 200;
+
+}

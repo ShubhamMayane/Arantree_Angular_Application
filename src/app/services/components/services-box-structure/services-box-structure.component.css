@@ -1,0 +1,185 @@
+
+
+/* code for row 1 */
+.services-section-6-row-1{
+
+    justify-content: space-between;
+
+
+}
+
+.services-section-6-row-1-col-1{
+
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    border-radius: 20px;
+    background-color: #387c7e;
+    color: white;
+
+}
+
+.services-section-6-row-1-col-2{
+
+ 
+
+}
+
+.services-section-6-row-1-col-2-row-col{
+
+
+margin-bottom: 10px;
+
+border-radius: 10px;
+padding: 5%;
+color: #387c7e;
+background-color: white;
+
+}
+.services-section-6-row-1-col-2-row-col>h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services-section-6-row-1-col-3{
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #387c7e; 
+    background-color: white;
+
+}
+
+.services-section-6-row-1-col-3>h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* code for row 2 */
+.services-section-6-row-2{
+
+    justify-content: space-between;
+
+}
+.services-section-6-row-2-col-1{
+
+
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #387c7e;
+    color: white;
+
+}
+
+.services-section-6-row-2-col-2{
+
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #387c7e; 
+    background-color: white;
+    
+
+}
+
+.services-section-6-row-2-col-3{
+
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #387c7e; 
+    background-color: white;
+    position: relative;
+    top: -20px;
+  
+}
+
+.services-section-6-row-2-col-2>h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services-section-6-row-2-col-3>h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* //resposnsive code  */
+@media screen and (max-width: 600px) {
+
+/* code for section 6*/
+
+
+.services-section-6-container p{
+
+    font-size: 18px;
+
+}
+.services-section-6-row-1-col-1{
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section-6-br{
+    display: none;
+}
+
+
+.services-section-6-row-1-col-2-row-col {
+
+    text-align: center;
+
+}
+
+/* //row 1 */
+.services-section-6-row-1-col-2-row-col
+{
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px !important;
+}
+
+.services-section-6-row-1-col-3
+{
+    text-align: center;
+    height: auto;
+}
+
+/* //row 2 */
+
+.services-section-6-row-2-col-1 {
+
+    justify-content: center;
+    margin-bottom: 10px;
+  
+}
+
+.services-section-6-row-2-col-2
+{
+
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.services-section-6-row-2-col-3
+{
+
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+    top: 0px;
+}
+}

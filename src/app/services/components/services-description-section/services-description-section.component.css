@@ -1,0 +1,24 @@
+/* services section_3 */
+
+.services-section-3-container>p{
+
+    font-size: 20px;
+
+   }
+
+   .services-section-3-col>h2{
+    color: #087c80;
+
+
+
+   }
+
+
+   @media screen and (max-width: 600px) {
+
+   .services-section-3-container{
+
+    text-align: center;
+
+   }
+}

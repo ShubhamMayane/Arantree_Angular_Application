@@ -1,0 +1,29 @@
+.about-us-section-4-card{
+
+    height: 100%;
+    
+}
+.about-us-section-4-card-header{
+
+    color: #087c80;
+
+}
+
+
+.about-us-section-4-card-description{
+
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+
+    
+ /* resposive code for section 4 */
+ .about-us-section-4-card>.card-body
+ {
+         text-align: center;
+ }
+
+
+
+}

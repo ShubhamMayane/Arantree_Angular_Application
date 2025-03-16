@@ -1,0 +1,51 @@
+/* services section_2 */
+
+.services-section-2-container{
+
+    background-color: #297d7f;
+
+
+ }
+
+  .services-section-2-container-row{
+
+    
+    color: white;
+
+  }
+
+  .services-section-2-container-col{
+
+        height: 35vh;
+       padding-top: 5%;
+  }
+
+  .large-text{
+
+    font-size: 100px;
+    font-weight: 800;
+  }
+
+  .services-section-2-container-col > p{
+    font-size: 20px;
+
+  }
+
+
+
+
+/* // Responsive code for services section 2 */
+
+@media screen and (max-width: 600px) {
+  .services-section-2-container-col{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+}
+
+

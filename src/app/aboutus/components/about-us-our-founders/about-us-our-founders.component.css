@@ -1,0 +1,119 @@
+/* code for section 5 */
+
+.about-us-section-5-container{
+
+    text-align: center;
+}
+
+.about-us-section-5-container>button{
+
+    background-color: #087e80;
+    color: white;
+    width: 330px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+
+    /* //to disable the hover effect */
+    pointer-events: none;
+
+}
+
+/* code for about-us-section-6  */
+
+.about-us-section-6-container{
+
+
+}
+
+.about-us-section-6-container>h1{
+    text-align: center;
+    color: #087c80;
+    font-weight: 300;
+}
+
+.about-us-section-6-image-container{
+
+    position: relative;
+    padding: 0px;
+   
+}
+
+.about-us-section-6-image-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 20px;
+  
+}
+.about-us-section-6-card-body{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-us-section-6-card-body-header{
+
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color: #297d7f;
+
+
+}
+
+
+
+.about-us-section-6-card-body-description{
+
+    font-size: 20px;
+
+}
+.about-us-section-6-card-body>img{
+    height: 50px;
+    width: 50px;
+    align-self: end;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+/*Responsive  code for about-us-section-6  */
+
+   .about-us-section-6-container {
+    padding: 5%;
+}
+
+
+.about-us-section-6-card-body{
+
+        align-items: center;
+        gap:10px
+
+}
+
+.about-us-section-6-card-body>h2,p,img{
+
+    text-align: center;
+}
+.about-us-section-6-card-body>img {
+    
+    align-self: center;
+}
+
+.about-us-section-6-col{
+
+    margin-bottom: 20px;
+}
+
+
+
+
+}
+
+

@@ -64,7 +64,7 @@ In the module where the component you want to render resides, make sure the comp
 
 
       
-      For example, in ModuleB:
+      For example,followign is the component registered in ModuleB:
 
       // module-b.component.ts
       import { Component } from '@angular/core';

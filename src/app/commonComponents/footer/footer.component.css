@@ -113,6 +113,19 @@
 
    }
 
+   .error-div-container{
+
+    height: 15px;
+
+
+   }
+
+   .error>small{
+
+    color: white
+
+   }
+
 
    hr{
      color: white;
@@ -139,7 +152,7 @@
             .section-12-container-row-1-col-1-text>p>b{
 
        
-                font-size: 25px;
+                font-size: 20px;
             }
 
             .section-12-container-row-1-col-1{

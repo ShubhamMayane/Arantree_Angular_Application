@@ -9,7 +9,7 @@ import { HomeModule } from './home/home.module';
 import { AboutusModule } from './aboutus/aboutus.module';
 import { ServicesModule } from './services/services.module';
 import { BannerComponent } from './commonComponents/banner/banner.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -26,7 +26,9 @@ import { BannerComponent } from './commonComponents/banner/banner.component';
     AppRoutingModule,
     HomeModule,
     AboutusModule,
-    ServicesModule
+    ServicesModule,
+    ReactiveFormsModule
+    
   
   ],
   providers: [],

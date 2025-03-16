@@ -1,0 +1,76 @@
+
+.about-us-section-5-container{
+
+    text-align: center;
+}
+
+.about-us-section-5-container>button{
+
+    background-color: #087e80;
+    color: white;
+    width: 330px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+
+    /* //to disable the hover effect */
+    pointer-events: none;
+
+}
+
+
+.services-section-6-container>h1
+{
+    text-align: center;
+    font-weight: 300;
+    color: #087c80;
+
+}
+
+.services-section-6-container>h1>b
+{
+
+    font-weight: bold;
+
+}
+.services-section-6-container>p{
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* //css code for  <!-- services-section-10--> */
+
+.services-section-10-img-container{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    padding: 0px;
+}
+
+.services-section-10-img-container>img{
+
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+
+}
+
+
+
+/* //code for services section 10 */
+@media screen and (max-width: 600px) {
+
+.services-section-10-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+}
