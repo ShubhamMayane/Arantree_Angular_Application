@@ -1,0 +1,169 @@
+  /* css for  section 12  */
+
+
+  .section-12-container{
+
+        
+    padding: 5%;
+     background-color: #297d7f;
+   
+    
+ }
+
+ 
+ .section-12-container-row-1{
+
+    
+     height: 90%;
+ }
+
+ .section-12-container-row-1-col-1{
+     height: 100%;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+
+
+ }
+
+ .section-12-container-row-1-col-1-text{
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 50px;
+     font-weight: 200;
+     font-size: 25px;
+     
+
+
+ }
+
+ .section-12-container-row-1-col-1-text>p>b{
+
+    
+     font-size: 30px;
+ }
+
+ .section-12-container-row-2>h5{
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     font-weight: 200;
+ }
+
+ /* css code for footer column 2 */
+ .section-12-container-row-1-col-2{
+     height: 100%;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+
+
+ }
+
+ /*Customizing a form elements*/
+ .section-12-container-row-1-col-2 input{
+
+     background-color: transparent;
+     color: white;
+     border-radius: 0px;
+     border-right: 0px;
+     border-left:0px;
+     border-top: 0px;
+     outline: none !important;    
+ }
+ .section-12-container-row-1-col-2 input:focus, .section-12-container-row-1-col-2 input:focus{
+    
+     background-color: transparent;
+     color: white;
+     outline: none;
+ }
+
+ .section-12-container-row-1-col-2 input::placeholder {
+     color: white;
+     opacity: 1; /* Firefox */
+     font-size: 20px;
+   }
+
+ .section-12-submit-btn{
+
+     width: 300px;
+     height: 200px;
+     color: #087c80;
+     background-color: white;
+     font-weight: 500;
+     font-size: 25px;
+     width: 200px;
+     height: 50px;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+
+   }
+
+   #contactForm{
+
+     width: 70%;
+
+   }
+
+
+   hr{
+     color: white;
+
+   }
+
+
+
+   /*Responsive design*/
+   @media screen and (max-width: 600px) {
+   
+  
+            /* css for  section 12  */
+
+            .section-12-container-row-1-col{
+
+                padding-left: 0%;
+                padding-right: 0%;
+                font-size:20px ;
+                margin-bottom: 20px;
+            }   
+
+            .section-12-container-row-1-col-1-text>p>b{
+
+       
+                font-size: 25px;
+            }
+
+          
+            .section-12-container-row-1-col-1
+            {
+
+                margin-bottom: 20px;
+            }
+
+            .section-12-container-row-1-col-2>form>h3{
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 30px !important;
+
+            }
+
+            .btn-container{
+                    text-align: center;
+
+            }
+
+            
+            #contactForm{
+
+                width: 100%;
+
+            }
+   }

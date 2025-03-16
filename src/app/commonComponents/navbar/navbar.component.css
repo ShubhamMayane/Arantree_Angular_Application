@@ -1,0 +1,138 @@
+
+/* styles for navbar */
+
+#navbarNavAltMarkup{
+
+    justify-content: center;
+}
+
+#navbarNavAltMarkup > div > a.nav-link.active{
+color:#389698;
+font-weight: 500;
+}
+
+
+#navbarNavAltMarkup > div > a{
+
+    color:#afafaf;
+    font-weight: 500;
+}
+
+
+#contact-us-nav-item{
+
+    display: none;
+
+}
+
+.nav-button{
+
+    height: 50px;
+    width: 150px;
+    background-color: #087e80 !important;
+    border-color: #087e80 !important;
+    color: white;
+
+}
+
+.fixed-top-nav-bar{
+    position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        background: white;
+
+}
+
+
+
+/* code for reponsive design for index.html */
+
+@media screen and (max-width: 600px) {
+    /* responsiveness  code for navbar element */
+ 
+    #contact-us-button{
+     display: none;
+     
+ }
+ 
+ #contact-us-nav-item{
+ 
+     display: block;
+     background-color: #087c80;
+     color: white !important;
+     text-align: center;
+     border-radius: 10px;
+ }
+ 
+} 
+
+
+@media screen and (max-width: 990px) {
+    /* responsiveness  code for navbar element */
+ 
+    #contact-us-button{
+     display: none;
+     
+ }
+ 
+ #contact-us-nav-item{
+ 
+     display: block;
+     background-color: #087c80;
+     color: white !important;
+     text-align: center;
+     border-radius: 10px;
+ }
+ 
+} 
+
+/* ----------------------------------------------------------------------------------- */
+
+/*media queries to all type of devices */
+
+  
+  /* Mobile devices in portrait mode (up to 480px wide)
+  @media screen and (max-width: 480px) {
+
+
+
+  } */
+  
+  /* Larger mobile devices in portrait mode or small tablets (up to 600px wide)
+  @media screen and (max-width: 600px) {
+  
+  } */
+  
+  /* Tablets in portrait mode (portrait tablets and smaller devices)
+  @media screen and (max-width: 768px) {
+ 
+  }
+   */
+  /* Tablets in landscape mode (from 768px to 1024px)
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+  } */
+  
+  /* Small desktops or large tablets (from 1024px to 1280px)
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+ 
+  } */
+  
+  /* Desktops, laptops, and larger screens (from 1280px to 1440px)
+  @media screen and (min-width: 1280px) and (max-width: 1440px) {
+ 
+  } */
+  
+  /* Large desktop monitors (from 1440px to 1600px)
+  @media screen and (min-width: 1440px) and (max-width: 1600px) {
+
+  } */
+  
+  /* Ultra-large desktop monitors (1600px and above)
+  @media screen and (min-width: 1600px) {
+ 
+
+    
+  } */
