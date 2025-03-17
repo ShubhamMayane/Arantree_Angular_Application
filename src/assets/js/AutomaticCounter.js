@@ -1,4 +1,4 @@
-
+window.onload = function() {
         //DOM element for the automatic counter logic
         const counterContainer=document.getElementById("services-section-2-container");
         const counterDiv1 = document.getElementById("count-1")
@@ -35,6 +35,7 @@
 
 
 
+console.log("automatic counter is linked");
 
 
 
@@ -88,3 +89,5 @@
                         });
     
             observer.observe(counterContainer); // Start observing the counterContainer div
+
+                    }

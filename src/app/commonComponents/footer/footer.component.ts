@@ -8,6 +8,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class FooterComponent {
   form: FormGroup;
+  showErrorMessage:boolean=false;
 
 
  constructor(private fb: FormBuilder) {
@@ -17,6 +18,14 @@ export class FooterComponent {
       email: ['', [Validators.required, Validators.email]],
       mobile: ['', [Validators.required, Validators.pattern(/^\d{10}$/)]]
     });
+  }
+
+  hideErrorMessage(){
+
+    console.log("hideErrorMessage() called");
+    
+    this.showErrorMessage=false;
+
   }
 
   // Submit handler
@@ -29,6 +38,9 @@ export class FooterComponent {
       alert("form is successfully submitted")
       console.log('Form Submitted!', this.form?.value);
     } else {
+
+      this.showErrorMessage=true;
+
 
 
       console.log('Form not valid');

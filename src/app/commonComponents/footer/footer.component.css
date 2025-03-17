@@ -177,6 +177,11 @@
                     text-align: center;
 
             }
+            .error-message>p{
+
+                text-align: center;
+
+            }
 
             
             #contactForm{
